@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
+
+.button {
+    @apply bg-gray-100 py-1 px-2 rounded border border-gray-400;
+}
 @tailwind utilities;

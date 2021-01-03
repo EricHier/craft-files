@@ -3,13 +3,13 @@
     <router-view></router-view>
   </div>
 </template>
-
 <script>
-  export default {
-    name: 'plottrorganizr-electron'
-  }
+export default {
+  name: 'plottrorganizr-electron'
+}
 </script>
-
-<style>
-  /* CSS */
+<style lang="scss">
+html {
+  @apply overflow-x-hidden;
+}
 </style>
