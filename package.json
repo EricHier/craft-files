@@ -1,6 +1,6 @@
 {
-  "name": "plottrorganizr-electron",
-  "version": "0.0.1",
+  "name": "craft-files",
+  "version": "0.0.2",
   "author": "EricHier <developer.erichier@gmail.com>",
   "description": "An electron-vue project",
   "license": null,
@@ -17,8 +17,8 @@
     "postinstall": ""
   },
   "build": {
-    "productName": "plottrorganizr-electron",
-    "appId": "tech.erichier.plottrorganizr",
+    "productName": "CraftFiles",
+    "appId": "tech.erichier.craft-files",
     "directories": {
       "output": "build"
     },

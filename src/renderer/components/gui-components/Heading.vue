@@ -1,7 +1,7 @@
 <template>
   <section
       class="w-screen h-fit p-10 flex flex-row items-center z-10 shadow bg-gradient-to-br from-gray-50 to-gray-100">
-    <img class="h-16 object-contain mr-10" src="../../assets/logo.png" alt="Logo"/>
+    <h1 class="text-2xl font-bold tracking-wide border-b border-gray-200 mr-10">Craft Files</h1>
     <input type="text" class="flex-grow p-2 rounded h-fit" placeholder="Suche..."
            @input="$root.$emit('search', $event.target.value)">
     <select class="ml-10 p-2" @change="$root.$emit('folder', $event.target.value)">

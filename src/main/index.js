@@ -4,9 +4,11 @@ import * as fs from "fs";
 
 const store = new Store();
 
+store.clear()
+
 function loadFiles() {
     const files = [];
-    const folders = store.get("folders");
+    const folders = store.get("folders", []);
     const possibleImages = ["bild.jpg", "bild.jpeg", "bild.png"];
 
     folders.forEach(folder => {
@@ -78,7 +80,7 @@ ipcMain.on("open", (event, folder) => {
 })
 
 ipcMain.on('select-dirs', async (event, arg) => {
-    let folders = store.get("folders");
+    let folders = store.get("folders", []);
 
     const result = await dialog.showOpenDialog(mainWindow, {
         properties: ['openDirectory']
@@ -104,12 +106,12 @@ ipcMain.on("load", (event) => {
 });
 
 function loadAndSend(sender) {
-    sender.send("folders", store.get("folders"))
-    sender.send("files", store.get("files"))
+    sender.send("folders", store.get("folders", []))
+    sender.send("files", store.get("files", []))
 
     loadFiles()
 
-    sender.send("files", store.get("files"))
+    sender.send("files", store.get("files", []))
 }
 
 app.on('window-all-closed', () => {

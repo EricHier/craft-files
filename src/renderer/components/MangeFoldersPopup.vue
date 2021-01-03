@@ -8,7 +8,7 @@
       <button @click="select" class="button">Neuen Order hinzufügen</button>
       <button @click="deleteAll" class="button">Alle Order löschen</button>
     </div>
-    <button class="block mx-auto p-4 text-white font-bold text-sm" @click.stop="visible = false">Popup schließen</button>
+    <button class="block mx-auto p-4 text-white font-bold text-sm mt-2" @click.stop="visible = false">Popup schließen</button>
   </div>
 </template>
 <script>

@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-  name: 'plottrorganizr-electron'
+  name: 'CraftFiles'
 }
 </script>
 <style lang="scss">
