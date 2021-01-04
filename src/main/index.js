@@ -4,8 +4,6 @@ import * as fs from "fs";
 
 const store = new Store();
 
-store.clear()
-
 function loadFiles() {
     const files = [];
     const folders = store.get("folders", []);
@@ -54,18 +52,20 @@ function createWindow() {
      * Initial window options
      */
     mainWindow = new BrowserWindow({
-        height: 563,
-        useContentSize: true,
-        width: 1000,
         title: "PlottrOrganizr",
         webPreferences: {
             webSecurity: false
-        }
+        },
+        show: false
     })
 
     mainWindow.loadURL(winURL)
-    mainWindow.maximize()
     mainWindow.setMenu(null)
+
+    mainWindow.on('ready-to-show', ()=>{
+        mainWindow.maximize();
+        mainWindow.show()
+    })
 
     mainWindow.on('closed', () => {
         mainWindow = null
