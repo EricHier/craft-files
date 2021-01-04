@@ -1,6 +1,6 @@
 {
   "name": "craft-files",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "author": "EricHier <developer.erichier@gmail.com>",
   "description": "An electron-vue project",
   "license": null,

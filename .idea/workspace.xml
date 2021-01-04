@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca8ea78d-3f05-40bc-bec3-b4c751202352" name="Default Changelist" comment="renaming project">
+    <list default="true" id="ca8ea78d-3f05-40bc-bec3-b4c751202352" name="Default Changelist" comment="new version with fixed window startup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/gui-components/Heading.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/gui-components/Heading.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609689288009</updated>
-      <workItem from="1609689289195" duration="16170000" />
+      <workItem from="1609689289195" duration="16631000" />
     </task>
     <task id="LOCAL-00001" summary="intital commit">
       <created>1609691590180</created>
@@ -94,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609708393504</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new version with fixed window startup">
+      <created>1609749766882</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609749766882</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +112,7 @@
     <MESSAGE value="intital commit" />
     <MESSAGE value="first version" />
     <MESSAGE value="renaming project" />
-    <option name="LAST_COMMIT_MESSAGE" value="renaming project" />
+    <MESSAGE value="new version with fixed window startup" />
+    <option name="LAST_COMMIT_MESSAGE" value="new version with fixed window startup" />
   </component>
 </project>

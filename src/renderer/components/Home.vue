@@ -1,7 +1,7 @@
 <template>
   <div>
     <Heading/>
-    <FileList/>
+    <FileList class="mt-28"/>
     <MangeFoldersPopup/>
   </div>
 </template>
